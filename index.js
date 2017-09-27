@@ -57,7 +57,7 @@ class SideBySideArticle extends Component {
       padding
     } = this.props;
     return (
-      <ul className="CategoryGrid-listItem" style={{paddingLeft: padding}}>
+      <ul className="CategoryGrid-listItem " style={{paddingLeft: padding}}>
         {items.map((item, index) => {
             const {
               headline = '',
