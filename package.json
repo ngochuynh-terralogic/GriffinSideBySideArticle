@@ -1,0 +1,41 @@
+{
+  "thumbnail": "https://wnow-modules.s3.amazonaws.com/icon_stroke_news_articlelist.svg",
+  "tag": "news",
+  "affiliates": [
+    "kotv",
+    "kwtv"
+  ],
+  "propTypes": {
+    "title": "PropTypes.string",
+    "titleColor": "PropTypes.string",
+    "textColor": "PropTypes.string",
+    "backgroundColor": "PropTypes.string",
+    "imagePlacement": "PropTypes.string",
+    "layout": "PropTypes.string",
+    "showTimestamp": "PropTypes.bool",
+    "showReadMore": "PropTypes.bool",
+    "showPill": "PropTypes.bool",
+    "padding": "PropTypes.number",
+    "totalNumberOfItems": "PropTypes.number"
+  },
+  "customProps": {
+  },
+  "defaultProps": {
+    "imagePlacement": "left",
+    "layout": "grid",
+    "titleColor": "#FFFFFF",
+    "textColor": "#FFFFFF",
+    "backgroundColor": "#000000",
+    "showTimestamp": true,
+    "showReadMore": true,
+    "totalNumberOfItems": 7
+  },
+  "propChoices": {
+  },
+  "FRN_resourceEndpoints": [
+    {
+      "url": "",
+      "type": "json"
+    }
+  ]
+}
