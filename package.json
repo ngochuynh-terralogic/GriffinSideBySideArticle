@@ -13,13 +13,14 @@
     "imagePlacement": "PropTypes.string",
     "layout": "PropTypes.string",
     "showTimestamp": "PropTypes.bool",
+    "timestampOptions": "PropTypes.object",
     "showReadMore": "PropTypes.bool",
     "showPill": "PropTypes.bool",
     "padding": "PropTypes.number",
-    "totalNumberOfItems": "PropTypes.number"
+    "totalNumberOfItems": "PropTypes.number",
+    "expandBackground": "PropTypes.bool"
   },
-  "customProps": {
-  },
+  "customProps": {},
   "defaultProps": {
     "imagePlacement": "left",
     "layout": "grid",
@@ -28,9 +29,22 @@
     "backgroundColor": "#000000",
     "showTimestamp": true,
     "showReadMore": true,
-    "totalNumberOfItems": 7
+    "totalNumberOfItems": 7,
+    "expandBackground": false,
+    "timestampOptions": {
+      "showElapsedTime": true,
+      "displayShortDateTime": true
+    }
   },
   "propChoices": {
+    "imagePlacement": [
+      "left",
+      "right"
+    ],
+    "layout": [
+      "hero",
+      "grid"
+    ]
   },
   "FRN_resourceEndpoints": [
     {
